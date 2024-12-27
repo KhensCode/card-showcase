@@ -1,27 +1,40 @@
 html{
-    background-color: #E5E1DA;
+   background: none;
 }
 .container{
    margin-left:500px;
-   margin-top: 2cm;
+  margin-top: 90px;
    width:300px;
    padding-left: 12px;
    padding-right:12px;
    height: 360px;
    max-height:auto;
-   background: rgb(52,49,49);
-background: linear-gradient(230deg, rgba(52,49,49,1) 25%, rgba(160,71,71,1) 32%, rgba(21,21,21,1) 46%, rgba(61,35,35,1) 48%, rgba(160,71,71,1) 53%, rgba(52,49,49,1) 55%, rgba(160,71,71,1) 74%); 
    
-   backdrop-filter: blur(10px);
+   
+   
    width: 300px;
    padding: 20px;
    border: none; 
+   
    border-radius: 24px;
-   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+   
    color:whitesmoke;
-   filter: blur(0.3px);
+  
+background: rgba(44, 33, 33, 0.29);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.3px);
+-webkit-backdrop-filter: blur(9.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
    
     
+}
+body{
+    background: rgb(52,49,49);
+    height:100vh;
+    overflow-y: hidden;
+  overflow-x: hidden;
+background: linear-gradient(230deg, rgba(52,49,49,1) 25%, rgba(160,71,71,1) 32%, rgba(21,21,21,1) 46%, rgba(61,35,35,1) 48%, rgba(160,71,71,1) 53%, rgba(52,49,49,1) 55%, rgba(160,71,71,1) 74%); 
 }
 .btn{
     color:#E5E1DA;
@@ -48,17 +61,18 @@ h1{
    
   font-style: bolder;
   color:aliceblue;
-  margin-left: 40px;
-  font-family: "Poiret One", serif;
+ display: flex;
+justify-content: center;
+  font-family: "Lilita One", serif;
   font-weight: 400;
   font-style: normal;
 }
 p{
     opacity: 0.5;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+    font-family: "Ubuntu", serif;
+   font-weight: 400;
+   font-style: normal;
 
 }
 .btn-2{
@@ -111,12 +125,16 @@ button{
     color:white;
     opacity:0.4;
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Ubuntu", serif;
+   font-weight: 400;
+   font-style: normal;
 }
 input{
     color: antiquewhite;
     font-size:16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Ubuntu", serif;
+   font-weight: 400;
+   font-style: normal;
     opacity:0.9;
     background: rgb(52,49,49);
     background: linear-gradient(230deg, rgba(52,49,49,1) 95%, rgba(61,35,35,1) 100%); 
